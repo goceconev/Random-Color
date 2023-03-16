@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #005490;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+#btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#color {
+    border: white 1px solid;
+    border-radius: 10px;
+}
